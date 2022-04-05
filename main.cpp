@@ -15,6 +15,10 @@ void fibonacci(int a)
             q = ris;
         }
     }
+    else
+    {
+        cout << endl <<"errore"<< endl;
+    }
 }
 
 int main()
