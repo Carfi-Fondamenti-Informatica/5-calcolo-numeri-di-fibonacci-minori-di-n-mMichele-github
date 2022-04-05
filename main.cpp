@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-int fibonacci(int a)
+void fibonacci(int a)
 {
-    int p=0, q=1, ris=0;
+    int p=1, q=1, ris=0;
     if (a>=2)
     {
         cout << p << endl << q << endl;
@@ -19,7 +19,6 @@ int fibonacci(int a)
     {
         cout <<"errore"<< endl;
     }
-    return 0;
 }
 
 int main()
@@ -27,6 +26,6 @@ int main()
     int n=0;
     cout << "Stabilire dopo quanti passaggi fermarsi nella sequenza di Fibonacci: " << endl;
     cin >> n;
-    int sequenza = fibonacci(n);
-    return sequenza;
+    fibonacci(n);
+    return 0;
 }
