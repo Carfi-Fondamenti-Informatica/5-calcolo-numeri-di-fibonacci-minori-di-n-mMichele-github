@@ -17,14 +17,14 @@ void fibonacci(int a)
     }
     else
     {
-        cout << endl <<"errore"<< endl;
+        cout << p << endl << q << endl;
     }
 }
 
 int main()
 {
     int n=0;
-    cout << "Stabilire dopo quanti passaggi fermarsi nella sequenza di Fibonacci: ";
+    cout << "Stabilire dopo quanti passaggi fermarsi nella sequenza di Fibonacci: " << endl;
     cin >> n;
     fibonacci(n);
     return 0;
