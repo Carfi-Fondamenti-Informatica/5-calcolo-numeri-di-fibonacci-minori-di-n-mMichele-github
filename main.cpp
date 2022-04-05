@@ -24,7 +24,7 @@ void fibonacci(int a)
 int main()
 {
     int n=0;
-    cout << "Stabilire dopo quanti passaggi fermarsi nella sequenza di Fibonacci: " << endl;
+    cout << "Stabilire dopo quanti passaggi fermarsi nella sequenza di Fibonacci: ";
     cin >> n;
     fibonacci(n);
     return 0;
